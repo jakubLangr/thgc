@@ -1,0 +1,48 @@
+3020,389,2013-05-01 00:00:25.483,Hair Care [Health and Beauty],Hair Care,0,1
+142313,158633,2013-05-01 00:01:50.937,Skin Care [Health and Beauty],Skin Care,1,2
+80325,14408,2013-05-01 00:02:31.917,Cosmetics [Health and Beauty],Make-Up,2,0
+142314,1726,2013-05-01 00:04:17.693,Cosmetics [Health and Beauty],Make-Up,3,1
+142315,160877,2013-05-01 00:05:19.533,Nail Care [Health and Beauty],Nail Care,4,1
+142315,5901,2013-05-01 00:05:19.533,Hair Care [Health and Beauty],Hair Care,5,1
+142315,3738,2013-05-01 00:05:19.533,Nail Care [Health and Beauty],Nail Care,4,1
+142315,159692,2013-05-01 00:05:19.533,Nail Care [Health and Beauty],Nail Care,6,1
+142316,2684,2013-05-01 00:06:38.700,Skin Care [Health and Beauty],Skin Care,7,2
+142316,26,2013-05-01 00:06:38.700,Skin Care [Health and Beauty],Skin Care,7,2
+142316,5021,2013-05-01 00:06:38.700,Skin Care [Health and Beauty],Skin Care,7,2
+142316,15,2013-05-01 00:06:38.700,Skin Care [Health and Beauty],Skin Care,8,0
+142316,7243,2013-05-01 00:06:38.700,Skin Care [Health and Beauty],Skin Care,7,2
+100376,4072,2013-05-01 00:08:57.633,Hair Care [Health and Beauty],Hair Care,9,0
+100376,157279,2013-05-01 00:08:57.633,Cosmetics [Health and Beauty],Make-Up,8,1
+100376,157239,2013-05-01 00:08:57.633,Hair Care [Health and Beauty],Hair Care,9,1
+142317,1301,2013-05-01 00:10:22.597,Body Care [Health and Beauty],Body Care,10,1
+91327,2595,2013-05-01 00:11:50.660,Skin Care [Health and Beauty],Skin Care,1,2
+28344,2074,2013-05-01 00:12:48.593,Cosmetics Range,Make-Up,11,1
+28344,2350,2013-05-01 00:12:48.593,Cosmetics [Health and Beauty],Make-Up,11,2
+113208,3464,2013-05-01 00:13:13.400,Hair Care [Health and Beauty],Hair Care,12,1
+142318,15,2013-05-01 00:13:15.467,Skin Care [Health and Beauty],Skin Care,8,0
+142318,26,2013-05-01 00:13:15.467,Skin Care [Health and Beauty],Skin Care,7,2
+41968,10319,2013-05-01 00:15:14.373,Cosmetics [Health and Beauty],Make-Up,13,2
+142319,26585,2013-05-01 00:19:52.200,Hair Care [Health and Beauty],Hair Care,14,1
+142320,157990,2013-05-01 00:20:16.903,Hair Care [Health and Beauty],Hair Care,8,0
+142320,1147,2013-05-01 00:20:16.903,Tools [Health and Beauty],Health and Beauty Electricals,15,4
+96443,12477,2013-05-01 00:20:41.793,Cosmetics [Health and Beauty],Make-Up,16,1
+142321,1041,2013-05-01 00:21:06.723,Hair Care [Health and Beauty],Hair Care,17,1
+142322,157990,2013-05-01 00:23:36.163,Hair Care [Health and Beauty],Hair Care,8,0
+142322,1897,2013-05-01 00:23:36.163,Tools [Health and Beauty],Health and Beauty Electricals,18,3
+104916,157250,2013-05-01 00:23:52.787,Skin Care [Health and Beauty],Skin Care,19,2
+
+DATASET
+The data is drawn from 18 months of historical order data from LookFantastic.com, the leading beauty website in the UK.
+
+The Dataset consists of ordered entries:
+1. Customer ID: Anonymised customer identifier
+2. Product ID: Anonymised product identifier representing a particular product item
+3. Timestamp: Date and time of Order (YYYY-MM-DD HH:mm:ss.SSS)
+4. Product Type
+5. Product Category: A subset of product type
+6. Product Brand: An integer ID representing the brand of a product
+7. Price Band: An integer representing the price range of the item purchased (0-4 => low-high)
+
+Dataset is partitioned into training and test sets:
+1. Training Set (May 2013-20th April 2014) ~170 MB
+2. Test Set (20th April 2014 – November 2014) – A list of Customers who purchased in that time period
