@@ -16,7 +16,7 @@ def splitfile(infilepath, chunksize):
                 break
             i += 1
  
-fname="/home/lorenz/Documents/HutChallenge/recs_challenge/given/train.csv"
+fname="given/train.csv"
 
 with open(fname) as f:
     Nlines= sum(1 for _ in f)
